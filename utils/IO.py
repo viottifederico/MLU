@@ -61,6 +61,11 @@ class DeltaLakeUtils:
             return None
 
     def write_dataframe_to_table(self, dataframe):
+        """_summary_
+
+        Args:
+            dataframe (_type_): _description_
+        """
         try:
             dataframe.write.format("delta").mode("overwrite").save(self.table_path)
             print(f"Data written to Delta Lake table at {self.table_path}")
