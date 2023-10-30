@@ -1,18 +1,18 @@
 {
-    "compartment_id":"...",
-    "defined_tags":{},
-    "log_group_display_name":"...",
-    "custom_log_display_name":"...",
-    "workspace_id":"...",
-    "odi_project_name":"...",
-    "b":"b",
-    "b":"b",
-    "b":"b",
-    "b":"b",
-    "b":"b",
-    "b":"b",
-    "b":"b",
-    "b":"b",
-    "b":"b",
-    "b":"b"
+    "env_config":{
+        "compartment_id":"...",
+        "defined_tags":{}
+    },
+    "log_config":{
+        "log_group_display_name":"...",
+        "custom_log_display_name":"..."
+    },
+    "ds_config":{
+        "custom_conda":"...",
+        "project_id":"..."
+    },
+    "odi_config":{
+        "workspace_id":"...",
+        "odi_project_name":"..."
+    }
 }
