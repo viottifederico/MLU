@@ -1,3 +1,7 @@
 # UTILS CLASS TO PERFORM PREPROCESSING ON READED DELTA
 # START FROM TABLE/S READED WITH utils_delta.py 
 # END WITH TABLE TO BE FED IN THE ML MODEL
+
+def preprocess(dataset):
+    ...
+    return dataset

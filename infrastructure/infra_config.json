@@ -13,6 +13,10 @@
     },
     "odi_config":{
         "workspace_id":"...",
-        "odi_project_name":"..."
+        "odi_project_name":"...",
+        "odi_rest_task_name":"test_rest_task",
+        "odi_application_name":"test_application",
+        "odi_publish_task_patch_name":"test_publish_task",
+        "odi_app_scheduler_name":"test_schedule"
     }
 }
