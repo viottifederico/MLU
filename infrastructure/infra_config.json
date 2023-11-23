@@ -1,5 +1,6 @@
 {
     "env_config":{
+        "project_name":"...",
         "compartment_id":"...",
         "defined_tags":{}
     },
@@ -9,7 +10,42 @@
     },
     "ds_config":{
         "custom_conda":"...",
-        "project_id":"..."
+        "project_id":"...",
+        "step_shape":{
+            "model":{
+                "step_ram":4,
+                "step_cpu":2,
+                "step_volume":100
+            },
+            "kafka":{
+                "step_ram":4,
+                "step_cpu":2,
+                "step_volume":100
+            },
+            "aep":{
+                "step_ram":4,
+                "step_cpu":2,
+                "step_volume":100
+            },
+            "evidently":{
+                "step_ram":4,
+                "step_cpu":2,
+                "step_volume":100
+            },
+            "ethic":{
+                "step_ram":4,
+                "step_cpu":2,
+                "step_volume":100
+            }
+        },
+        "source_url":"...",
+        "entrypoint":{
+            "model":"...",
+            "kafka":"...",
+            "aep":"...",
+            "ethic":"...",
+            "evidently":"..."
+        }
     },
     "odi_config":{
         "workspace_id":"...",
