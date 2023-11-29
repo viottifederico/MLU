@@ -6,7 +6,6 @@ import delta
 from delta import DeltaTable
 from pyspark.sql import SparkSession
 
-
 def load_file_from_bucket(bucket_name, namespace, filename):
     """_summary_
 

@@ -1,0 +1,27 @@
+{
+    "model_step":{
+        "project_name":"...",
+        "compartment_id":"...",
+        "defined_tags":{}
+    },
+    "kafka_step":{
+        "project_name":"...",
+        "compartment_id":"...",
+        "defined_tags":{}
+    },
+    "xdm_step":{
+        "project_name":"...",
+        "compartment_id":"...",
+        "defined_tags":{}
+    },
+    "ethic_step":{
+        "project_name":"...",
+        "compartment_id":"...",
+        "defined_tags":{}
+    },
+    "monitoring_step":{
+        "project_name":"...",
+        "compartment_id":"...",
+        "defined_tags":{}
+    }
+}
